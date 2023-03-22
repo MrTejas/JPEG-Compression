@@ -91,7 +91,7 @@ def colorConversion2(rows,cols,ar):
 
 
 # loading the image
-filename = "pixel_landscape.jpg"
+filename = "../images/pixel_landscape.jpg"
 image = Image.open(filename)
 px = image.load()
 [rows,cols] = image.size 
